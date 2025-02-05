@@ -1,7 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Star, DollarSign, Heart, Home, Sparkles, Book, Target, User, Gift, Clock, Shield } from 'lucide-react';
 
 function App() {
+
+  // Estado para armazenar o tempo restante em segundos
+  const [remainingTime, setRemainingTime] = useState(15 * 60); // 15 minutos
+
+  // Função para formatar números com dois dígitos
+  const formatTime = (time) => (time < 10 ? `0${time}` : time);
+
+  // Efeito para atualizar o cronômetro a cada segundo
+  useEffect(() => {
+    if (remainingTime > 0) {
+      const timer = setTimeout(() => setRemainingTime((prevTime) => prevTime - 1), 1000);
+      return () => clearTimeout(timer); // Limpa o temporizador ao desmontar o componente
+    } else {
+      alert('A oferta expirou!');
+    }
+  }, [remainingTime]);
+
+  // Calcula horas, minutos e segundos a partir do tempo restante
+  const hours = Math.floor(remainingTime / 3600);
+  const minutes = Math.floor((remainingTime % 3600) / 60);
+  const seconds = remainingTime % 60;
+
   return (
     <div className="bg-gradient-to-b from-purple-900 to-black text-white">
       {/* Hero Section - Enhanced with more urgency and social proof */}
@@ -34,15 +56,15 @@ function App() {
             <p className="text-sm">Desconto de 50% expira em:</p>
             <div className="flex justify-center gap-4 mt-2">
               <div className="bg-black/30 px-3 py-2 rounded">
-                <span className="text-2xl font-bold">23</span>
+                <span className="text-2xl font-bold">{formatTime(hours)}</span>
                 <p className="text-xs">HORAS</p>
               </div>
               <div className="bg-black/30 px-3 py-2 rounded">
-                <span className="text-2xl font-bold">45</span>
+                <span className="text-2xl font-bold">{formatTime(minutes)}</span>
                 <p className="text-xs">MIN</p>
               </div>
               <div className="bg-black/30 px-3 py-2 rounded">
-                <span className="text-2xl font-bold">19</span>
+                <span className="text-2xl font-bold">{formatTime(seconds)}</span>
                 <p className="text-xs">SEG</p>
               </div>
             </div>
