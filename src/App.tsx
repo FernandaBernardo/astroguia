@@ -48,10 +48,12 @@ function App() {
             </div>
           </div>
           
-          <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-4">
-            QUERO MEU ASTROGUIA AGORA
-            <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
-          </button>
+          <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
+            <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-4">
+              QUERO MEU ASTROGUIA AGORA
+              <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
+            </button>
+          </a>
           
           {/* Trust Indicators */}
           <div className="flex justify-center items-center gap-6 mt-8 text-sm text-gray-300">
@@ -155,9 +157,11 @@ function App() {
           
           {/* Mid-page CTA */}
           <div className="text-center">
-            <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30">
-              QUERO O MELHOR MAPA ASTRAL
-            </button>
+            <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
+              <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30">
+                QUERO O MELHOR MAPA ASTRAL
+              </button>
+            </a>
           </div>
         </div>
       </section>
@@ -272,10 +276,12 @@ function App() {
                 </div>
               </div>
               
-              <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-6 w-full md:w-auto">
-                APROVEITAR OFERTA ESPECIAL
-                <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
-              </button>
+              <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
+                <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-6 w-full md:w-auto">
+                  APROVEITAR OFERTA ESPECIAL
+                  <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
+                </button>
+              </a>
               
               {/* Trust Badges */}
               <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-300">
@@ -388,10 +394,12 @@ function App() {
               <p className="text-sm mt-2">Apenas 7 vagas restantes com desconto</p>
             </div>
             
-            <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-6">
-              QUERO MEU ASTROGUIA AGORA
-              <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
-            </button>
+            <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
+              <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-6">
+                QUERO MEU ASTROGUIA AGORA
+                <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
+              </button>
+            </a>
             
             {/* Final Trust Indicators */}
             <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-300 mt-8">
