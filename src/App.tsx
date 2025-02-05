@@ -411,11 +411,11 @@ function App() {
               Não perca a chance de se conhecer profundamente e transformar sua vida
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-600 to-red-600 p-4 rounded-lg mb-8 inline-block">
+            <div className="bg-gradient-to-r from-orange-600 to-red-600 p-4 rounded-lg mb-8 block">
               <p className="text-xl font-bold">🔥 Oferta limitada – Últimas vagas disponíveis!</p>
               <p className="text-sm mt-2">Apenas 7 vagas restantes com desconto</p>
             </div>
-            
+
             <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
               <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-6">
                 QUERO MEU ASTROGUIA AGORA
