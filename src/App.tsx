@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Star, DollarSign, Heart, Home, Sparkles, Book, Target, User, Gift, Clock, Shield } from 'lucide-react';
+import { Star, DollarSign, Heart, GraduationCap, Sparkles, Book, Target, User, Gift, Clock, Shield } from 'lucide-react';
 
 function App() {
 
@@ -51,7 +51,7 @@ function App() {
           </p>
           
           {/* Timer Banner */}
-          <div className="bg-gradient-to-r from-orange-600 to-red-600 p-4 rounded-lg mb-8 shadow-lg shadow-orange-500/20">
+          <div className="bg-gradient-to-r from-pink-500 to-rose-600 p-4 rounded-lg mb-8 shadow-lg shadow-pink-500/20">
             <p className="text-lg font-bold mb-2">🔥 OFERTA ESPECIAL DE LANÇAMENTO</p>
             <p className="text-sm">Desconto de 50% expira em:</p>
             <div className="flex justify-center gap-4 mt-2">
@@ -71,7 +71,7 @@ function App() {
           </div>
           
           <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
-            <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-4">
+            <button className="bg-gradient-to-r from-pink-500 to-rose-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30 mb-4">
               QUERO MEU ASTROGUIA AGORA
               <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
             </button>
@@ -125,7 +125,7 @@ function App() {
                     <span className="text-green-400 text-xl">✓</span>
                   </span>
                   <div>
-                    <h4 className="font-bold text-white">Reflexões profundas</h4>
+                    <h4 className="font-bold text-white">Reflexões práticas</h4>
                     <p className="text-sm text-gray-300">Insights transformadores para sua vida</p>
                   </div>
                 </li>
@@ -134,7 +134,7 @@ function App() {
                     <span className="text-green-400 text-xl">✓</span>
                   </span>
                   <div>
-                    <h4 className="font-bold text-white">50+ páginas sobre você</h4>
+                    <h4 className="font-bold text-white">+50 páginas sobre você</h4>
                     <p className="text-sm text-gray-300">Conteúdo completo e aprofundado</p>
                   </div>
                 </li>
@@ -180,7 +180,7 @@ function App() {
           {/* Mid-page CTA */}
           <div className="text-center">
             <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
-              <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30">
+              <button className="bg-gradient-to-r from-pink-500 to-rose-600 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30">
                 QUERO O MELHOR MAPA ASTRAL
               </button>
             </a>
@@ -220,10 +220,10 @@ function App() {
                 highlight: "Essencial"
               },
               { 
-                icon: <Home className="w-8 h-8" />, 
-                title: "Família", 
-                desc: "Reflexões sobre conexões e harmonia",
-                highlight: "Valioso"
+                icon: <GraduationCap className="w-8 h-8" />, 
+                title: "Orientação Profissional", 
+                desc: "Direcionamento para alinhar carreira e vocação",
+                highlight: "Transformador"
               },
               { 
                 icon: <Sparkles className="w-8 h-8" />, 
@@ -258,7 +258,7 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-gradient-to-b from-purple-600/50 to-purple-800/50 p-8 rounded-2xl border border-purple-500/30 relative overflow-hidden">
             {/* Price Tag */}
-            <div className="absolute top-4 right-4 bg-gradient-to-r from-red-500 to-orange-500 text-white px-4 py-1 rounded-full text-sm">
+            <div className="absolute top-4 right-4 bg-gradient-to-r from-rose-500 to-pink-500 text-white px-4 py-1 rounded-full text-sm">
               50% OFF
             </div>
             
@@ -268,7 +268,7 @@ function App() {
               </h2>
               
               <div className="mb-8">
-                <div className="text-2xl line-through text-gray-400 mb-2">De R$297</div>
+                <div className="text-2xl line-through text-gray-400 mb-2">De R$297,00</div>
                 <div className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-300 mb-4">
                   12x de R$14,99
                 </div>
@@ -279,27 +279,27 @@ function App() {
               {/* Bonus Section */}
               <div className="bg-purple-900/50 p-6 rounded-xl mb-8">
                 <h3 className="text-xl font-bold mb-4 text-yellow-300">🎁 Bônus Exclusivos</h3>
-                <div className="grid md:grid-cols-3 gap-4 text-left">
-                  <div className="bg-purple-800/30 p-4 rounded-lg">
+                <div className="grid md:grid-cols-3 gap-4 text-center">
+                  <div className="bg-purple-800/30 p-4 rounded-lg flex justify-center items-center flex-col">
                     <Gift className="w-6 h-6 mb-2 text-yellow-300" />
                     <h4 className="font-bold mb-1">Dicionário Astrológico</h4>
-                    <p className="text-sm text-gray-300">Valor: R$97</p>
+                    <p className="text-sm text-gray-300 line-through">Valor: R$97,90</p>
                   </div>
-                  <div className="bg-purple-800/30 p-4 rounded-lg">
+                  <div className="bg-purple-800/30 p-4 rounded-lg flex justify-center items-center flex-col">
                     <Book className="w-6 h-6 mb-2 text-yellow-300" />
                     <h4 className="font-bold mb-1">Perguntas Poderosas</h4>
-                    <p className="text-sm text-gray-300">Valor: R$47</p>
+                    <p className="text-sm text-gray-300 line-through">Valor: R$47,90</p>
                   </div>
-                  <div className="bg-purple-800/30 p-4 rounded-lg">
+                  <div className="bg-purple-800/30 p-4 rounded-lg flex justify-center items-center flex-col">
                     <User className="w-6 h-6 mb-2 text-yellow-300" />
                     <h4 className="font-bold mb-1">Suporte Especializado</h4>
-                    <p className="text-sm text-gray-300">Valor: R$197</p>
+                    <p className="text-sm text-gray-300 line-through">Valor: R$147,90</p>
                   </div>
                 </div>
               </div>
               
               <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
-                <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-6 w-full md:w-auto">
+                <button className="bg-gradient-to-r from-pink-500 to-rose-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30 mb-6 w-full md:w-auto">
                   APROVEITAR OFERTA ESPECIAL
                   <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
                 </button>
@@ -338,14 +338,24 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               { 
-                name: "Rosana N.", 
-                text: "Transformador! Meu mapa astral me trouxe uma clareza que não encontrei em outros mapas.",
-                highlight: "Clareza e Direção" 
+                name: "Mariana Souza, 32 anos", 
+                text: "O AstroGuia me ajudou a me entender de uma forma profunda. As orientações práticas mudaram minha vida!",
+                highlight: "Reflexão" 
               },
               { 
-                name: "Rafael M.", 
-                text: "Consegui alinhar minhas decisões com meu propósito. Fez muito sentido!",
-                highlight: "Alinhamento de Vida"
+                name: "Renata Almeida, 40 anos", 
+                text: "O AstroGuia me deu clareza nas minhas decisões profissionais. Foi mais do que eu esperava!",
+                highlight: "Direção"
+              },
+              { 
+                name: "Fernanda Lima, 34 anos", 
+                text: "O AstroGuia me ajudou a entender aspectos da minha personalidade que eu nunca tinha percebido. Agora, sinto que estou no caminho certo para me desenvolver pessoalmente!",
+                highlight: "Desbloqueio"
+              },
+              { 
+                name: "Larissa Silva, 25 anos", 
+                text: "A leitura foi reveladora. Já comecei a aplicar as dicas e estou vendo mudanças reais!",
+                highlight: "Impacto"
               },
             ].map((testimonial, i) => (
               <div key={i} className="bg-gradient-to-b from-purple-800/30 to-purple-900/30 p-6 rounded-2xl border border-purple-500/20">
@@ -386,14 +396,54 @@ function App() {
                 a: "Em até 5 dias úteis, no e-mail informado no checkout. Você receberá um PDF personalizado e completo." 
               },
               { 
-                q: "O conteúdo é genérico ou realmente personalizado?", 
-                a: "Totalmente personalizado e feito manualmente. Cada AstroGuia é único e baseado no seu mapa astral específico." 
+                q: "O AstroGuia é personalizado para mim ou é um modelo genérico?", 
+                a: "O seu AstroGuia é totalmente personalizado! Ele é feito manualmente de acordo com o alinhamento dos planetas no dia, hora e local do seu nascimento. Isso garante que o conteúdo seja único e relevante para a sua jornada de autoconhecimento." 
+              },
+              { 
+                q: "O que faço depois de comprar o AstroGuia?", 
+                a: "Após a compra, você receberá um e-mail de confirmação com todos os detalhes. Em até 5 dias úteis, o seu mapa astral personalizado será enviado para o e-mail informado durante o checkout. Fique de olho na sua caixa de entrada!" 
+              },
+              { 
+                q: "⁠Como posso informar meus dados para criar o meu mapa astral personalizado?", 
+                a: "Durante o processo de compra, você será solicitado a fornecer seus dados de nascimento, como: data, hora e local de nascimento. Isso é essencial para garantir que o seu mapa astral seja preciso e totalmente personalizado. Após a compra, você pode também enviar esses dados por e-mail, caso tenha algum problema com o preenchimento." 
+              },
+              { 
+                q: "⁠O que eu posso esperar após a compra?", 
+                a: "Você receberá um mapa astral completo, com mais de 50 páginas de insights sobre sua personalidade, emoções, vida profissional, saúde, amor e muito mais. O conteúdo inclui também 5 ações práticas para o seu desenvolvimento pessoal e sugestões de livros que podem ajudar ainda mais no seu processo de autoconhecimento." 
+              },
+              { 
+                q: "⁠⁠Em quanto tempo posso começar a ver resultados?", 
+                a: "Os resultados podem começar a aparecer rapidamente! Como o AstroGuia oferece ações práticas e conselhos específicos, você pode aplicar as recomendações já no mesmo dia. O autoconhecimento é um processo contínuo, então você verá novas descobertas e insights conforme vai refletindo sobre as orientações." 
+              },
+              { 
+                q: "⁠⁠Posso obter suporte se eu tiver dúvidas após a compra?", 
+                a: "Sim! Se você tiver qualquer dúvida sobre o conteúdo do seu mapa ou como aplicar as orientações, pode entrar em contato conosco por e-mail. Nosso time de suporte estará disponível para te ajudar." 
+              },
+              { 
+                q: "⁠⁠Posso obter suporte se eu tiver dúvidas após a compra?", 
+                a: "Sim! Se você tiver qualquer dúvida sobre o conteúdo do seu mapa ou como aplicar as orientações, pode entrar em contato conosco por e-mail. Nosso time de suporte estará disponível para te ajudar." 
+              },
+              { 
+                q: "⁠⁠Em quanto tempo posso ver uma transformação real na minha vida?", 
+                a: "O tempo para transformação varia de pessoa para pessoa, pois depende de como você aplica os insights do seu mapa astral. Algumas mudanças podem ser imediatas, enquanto outras podem se manifestar ao longo do tempo, à medida que você implementa as ações práticas e reflete sobre o que aprendeu." 
+              },
+              { 
+                q: "⁠⁠Como posso garantir que meu mapa astral seja refeito se não fizer sentido para mim?", 
+                a: "Nós oferecemos uma garantia de 7 dias. Se você sentir que o mapa astral não refletiu sua realidade ou não fez sentido, basta entrar em contato com nosso suporte dentro desse prazo, e nós refaremos o seu mapa para você." 
+              },
+              { 
+                q: "⁠⁠O que acontece se eu não aproveitar a promoção agora?", 
+                a: "Se você não aproveitar a oferta com desconto por tempo limitado, você perderá o valor promocional de quase 50% de desconto. Além disso, as vagas são limitadas devido ao processo manual e personalizado do seu mapa, então, ao perder a promoção, você pode precisar aguardar para comprar a próxima rodada de mapas." 
+              },
+              { 
+                q: "⁠⁠Como posso garantir minha vaga agora?", 
+                a: "Clique no botão “Comprar Agora” e finalize o seu pedido para garantir sua vaga. Não perca a chance de ter um mapa astral único e transformador com preço promocional!" 
               },
             ].map((faq, i) => (
               <details key={i} className="group bg-gradient-to-b from-purple-800/30 to-purple-900/30 p-6 rounded-xl border border-purple-500/20">
                 <summary className="font-bold cursor-pointer flex items-center justify-between">
                   {faq.q}
-                  <span className="text-orange-500 group-open:rotate-180 transition-transform">▼</span>
+                  <span className="text-pink-500 group-open:rotate-180 transition-transform">▼</span>
                 </summary>
                 <p className="mt-4 text-gray-300 pl-4 border-l-2 border-purple-500/30">{faq.a}</p>
               </details>
@@ -411,13 +461,13 @@ function App() {
               Não perca a chance de se conhecer profundamente e transformar sua vida
             </h2>
             
-            <div className="bg-gradient-to-r from-orange-600 to-red-600 p-4 rounded-lg mb-8 block">
+            <div className="bg-gradient-to-r from-pink-600 to-rose-600 p-4 rounded-lg mb-8 block">
               <p className="text-xl font-bold">🔥 Oferta limitada – Últimas vagas disponíveis!</p>
               <p className="text-sm mt-2">Apenas 7 vagas restantes com desconto</p>
             </div>
 
             <a href="https://pay.kirvano.com/38a801d5-9355-4530-9172-5ad12388590a" rel="noopener noreferrer">
-              <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30 mb-6">
+              <button className="bg-gradient-to-r from-pink-500 to-rose-600 text-white text-xl px-12 py-6 rounded-full font-bold transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30 mb-6">
                 QUERO MEU ASTROGUIA AGORA
                 <span className="block text-sm font-normal mt-1">Clique aqui para garantir seu desconto</span>
               </button>
