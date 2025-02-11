@@ -388,16 +388,12 @@ function App() {
           <div className="space-y-4">
             {[
               { 
-                q: "Esse mapa serve para iniciantes?", 
-                a: "Sim, ele é feito para qualquer nível de conhecimento. Todo o conteúdo é explicado de forma clara e didática." 
+                q: "O AstroGuia é personalizado para mim ou é um modelo genérico?", 
+                a: "O seu AstroGuia é totalmente personalizado! Ele é feito manualmente de acordo com o alinhamento dos planetas no dia, hora e local do seu nascimento. Isso garante que o conteúdo seja único e relevante para a sua jornada de autoconhecimento." 
               },
               { 
                 q: "Em quanto tempo recebo meu AstroGuia?", 
                 a: "Em até 5 dias úteis, no e-mail informado no checkout. Você receberá um PDF personalizado e completo." 
-              },
-              { 
-                q: "O AstroGuia é personalizado para mim ou é um modelo genérico?", 
-                a: "O seu AstroGuia é totalmente personalizado! Ele é feito manualmente de acordo com o alinhamento dos planetas no dia, hora e local do seu nascimento. Isso garante que o conteúdo seja único e relevante para a sua jornada de autoconhecimento." 
               },
               { 
                 q: "O que faço depois de comprar o AstroGuia?", 
@@ -405,11 +401,7 @@ function App() {
               },
               { 
                 q: "⁠Como posso informar meus dados para criar o meu mapa astral personalizado?", 
-                a: "Durante o processo de compra, você será solicitado a fornecer seus dados de nascimento, como: data, hora e local de nascimento. Isso é essencial para garantir que o seu mapa astral seja preciso e totalmente personalizado. Após a compra, você pode também enviar esses dados por e-mail, caso tenha algum problema com o preenchimento." 
-              },
-              { 
-                q: "⁠O que eu posso esperar após a compra?", 
-                a: "Você receberá um mapa astral completo, com mais de 50 páginas de insights sobre sua personalidade, emoções, vida profissional, saúde, amor e muito mais. O conteúdo inclui também 5 ações práticas para o seu desenvolvimento pessoal e sugestões de livros que podem ajudar ainda mais no seu processo de autoconhecimento." 
+                a: "Após a compra, você será solicitado a fornecer seus dados de nascimento, como: data, hora e local de nascimento. Isso é essencial para garantir que o seu mapa astral seja preciso e totalmente personalizado."
               },
               { 
                 q: "⁠⁠Em quanto tempo posso começar a ver resultados?", 
@@ -420,24 +412,8 @@ function App() {
                 a: "Sim! Se você tiver qualquer dúvida sobre o conteúdo do seu mapa ou como aplicar as orientações, pode entrar em contato conosco por e-mail. Nosso time de suporte estará disponível para te ajudar." 
               },
               { 
-                q: "⁠⁠Posso obter suporte se eu tiver dúvidas após a compra?", 
-                a: "Sim! Se você tiver qualquer dúvida sobre o conteúdo do seu mapa ou como aplicar as orientações, pode entrar em contato conosco por e-mail. Nosso time de suporte estará disponível para te ajudar." 
-              },
-              { 
-                q: "⁠⁠Em quanto tempo posso ver uma transformação real na minha vida?", 
-                a: "O tempo para transformação varia de pessoa para pessoa, pois depende de como você aplica os insights do seu mapa astral. Algumas mudanças podem ser imediatas, enquanto outras podem se manifestar ao longo do tempo, à medida que você implementa as ações práticas e reflete sobre o que aprendeu." 
-              },
-              { 
                 q: "⁠⁠Como posso garantir que meu mapa astral seja refeito se não fizer sentido para mim?", 
                 a: "Nós oferecemos uma garantia de 7 dias. Se você sentir que o mapa astral não refletiu sua realidade ou não fez sentido, basta entrar em contato com nosso suporte dentro desse prazo, e nós refaremos o seu mapa para você." 
-              },
-              { 
-                q: "⁠⁠O que acontece se eu não aproveitar a promoção agora?", 
-                a: "Se você não aproveitar a oferta com desconto por tempo limitado, você perderá o valor promocional de quase 50% de desconto. Além disso, as vagas são limitadas devido ao processo manual e personalizado do seu mapa, então, ao perder a promoção, você pode precisar aguardar para comprar a próxima rodada de mapas." 
-              },
-              { 
-                q: "⁠⁠Como posso garantir minha vaga agora?", 
-                a: "Clique no botão “Comprar Agora” e finalize o seu pedido para garantir sua vaga. Não perca a chance de ter um mapa astral único e transformador com preço promocional!" 
               },
             ].map((faq, i) => (
               <details key={i} className="group bg-gradient-to-b from-purple-800/30 to-purple-900/30 p-6 rounded-xl border border-purple-500/20">
