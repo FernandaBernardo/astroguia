@@ -268,12 +268,12 @@ function App() {
               </h2>
               
               <div className="mb-8">
-                <div className="text-2xl line-through text-gray-400 mb-2">De R$297,00</div>
+                <div className="text-2xl line-through text-gray-400 mb-2">De R$197,00</div>
                 <div className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-300 mb-4">
-                  <span className="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-300 mb-2">12 x</span> R$14,99
+                  <span className="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-300 mb-2">12 x</span> R$9,99
                 </div>
-                <div className="text-xl mb-2">ou R$149,90 à vista!</div>
-                <p className="text-gray-300 text-sm">Economia de R$147,10</p>
+                <div className="text-xl mb-2">ou R$99,90 à vista!</div>
+                <p className="text-gray-300 text-sm">Economia de R$97,10</p>
               </div>
               
               {/* Bonus Section */}
